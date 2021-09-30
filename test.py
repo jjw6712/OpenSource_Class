@@ -1,19 +1,19 @@
 def findMax(a,b,c):
     if a>b:
-        big=a
+        biger=a
     else:
-        big=b
+        biger=b
 
-    if c>big:
-        big=c
+    if c>biger:
+        biger=c
 
-    return big
+    return biger
 
 
 a=int(input("첫번째 숫자입력: "))
 b=int(input("두번째 숫자입력: "))
 c=int(input("세번째 숫자입력: "))
 
-big=findMax(a,b,c)
+biger=findMax(a,b,c)
 
-print(a,b,c,"중 가장 큰 수는", big,"입니다.")
+print(a,b,c,"중 가장 큰 수는", biger,"입니다.")
